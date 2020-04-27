@@ -1,28 +1,28 @@
 # Tests for Common Child Algorithm
 [![Build Status](https://travis-ci.org/linababenko/common_child.svg?branch=master)](https://travis-ci.org/linababenko/common_child)
 
-##Task description
+## Task description
 
 A string is said to be a child of a another string if it can be formed by deleting 0 or more characters from the other string. 
 Given two strings of equal length, what's the longest string that can be constructed such that it is a child of both?For example, 
 ABCD and ABDC have two children with maximum length 3, ABC and ABD. They can beformed by eliminating either the D or C from both 
 strings. Note that we will not consider ABCD as a common child because we can't rearrange characters and ABCD ABDC.
 
-#####Function Description
+##### Function Description
 Complete the common Child function in the editor below. It should return the longest string which is a common child of the input strings.commonChild has the following parameter(s):s1, s2: two equal length strings.
 
-#####Input format
+##### Input format
 There is one line with two space-separated strings, s1 and s2.
 
-#####Constraints
+##### Constraints
 
 - 1<= |s1|,|s2|<=5000
 - All characters are uppercase in the range ascii[A-Z].
 
-#####Output Format
+##### Output Format
 Print the length of the longest string , such that  is a child of both s1 and s2
 
-##Test Cases
+## Test Cases
 
 Test case 1:
 ```
@@ -69,7 +69,7 @@ VGXGPUAMKXKSZHKBPPHYKINKEZPLVFJAQMOPODOTKRJZRIMLVUMUARENEXCFYCEBEURGVJYOSPDHVUYF
 
 ```
 
-##How to test
+## How to test
 ```npm install```
 
 Put your function in a file "../src/index.js"
